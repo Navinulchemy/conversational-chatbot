@@ -1,0 +1,107 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there!",
+         "Hello!",
+         "Hey!",
+         "Good morning!",
+         "Good afternoon!",
+         "Good evening!"],
+
+         "responses": ["Hi! How can I help you today?",
+         "Hello! What can I do for you?",
+         "Hey! What's on your mind?",
+         "Good morning! How can I assist you?",
+         "Good afternoon! Do you have any questions for me?",
+         "Good evening! How can I be of service?"],
+         "context_set": ""
+        },
+
+
+        {"tag": "goodbye",
+         "patterns": ["Goodbye!",
+         "See you later!",
+         "Take care!",
+         "Talk to you later!",
+         "I'll be back later!",
+         "I'll catch you later!"],
+
+         "responses": ["Goodbye! Have a great day!",
+         "See you later! Take care!",
+         "Take care! I'll be here if you need me.",
+         "Talk to you later! Have a good one.",
+         "I'll be back later! If you have any questions, just let me know.",
+         "I'll catch you later! Don't hesitate to reach out if you need anything."]
+        }, 
+
+
+        {"tag": "caring",
+         "patterns": ["how are you", "are you fine"],
+         "responses": ["iam good how about you", "iam happy and what about you", "thanks for asking iam fine"]
+        },
+
+
+        {"tag": "investigating",
+        "patterns": ["who are you", "tell about you","what can you do"],
+        "responses": ["Iam a bot created by MR.Navin in the year 2022 and i used for simple conversations", "designed to perform simple conversations with limited data by 'mr navin' in 2022"]
+        },
+
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","that was so helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+
+        {"tag": "smalltalk",
+         "patterns": ["Do you like music?", "Do you have a favorite movie?", "Do you like to travel?","Do you have any hobbies?"],
+         "responses": ["yes,i do", "yes","yes, 100% i do"]
+        },
+
+
+        {"tag": "joke",
+         "patterns": ["Tell me a joke", "want a joke", "say a joke","joke"],
+         "responses": ["Why was the computer cold? Because it left its Windows open.", "Why was the math book sad? Because it had too many problems.","Why couldn't the bicycle stand up by itself? Because it was two-tired.","Why was the cat sitting on the computer? It wanted to keep an eye on the mouse.","What do you call a bear with no teeth? A gummy bear."]
+        },
+
+
+        {"tag": "help",
+         "patterns": ["I need help!",
+         "I don't understand!",
+         "Can you explain this?",
+         "I'm confused!",
+         "I'm lost!",
+         "I'm stuck!"],
+
+         "responses": ["Of course! What do you need help with?",
+         "No problem! What's confusing you?",
+         "Sure! Can you tell me more about what you're trying to understand?",
+         "I'm here to help! What specifically are you having trouble with?",
+         "No problem! What aspect of the conversation are you struggling with?",
+         "I'm here to assist you! Can you tell me more about what you're stuck on?"]
+        },
+        {"tag": "hobbies",
+         "patterns": ["what do you like to do for fun",
+         "what are your hobbies",
+         "do you have any interests outside of work",
+         "what do you enjoy doing in your free time"],
+
+         "responses": ["As an AI, I don't have personal hobbies or interests.",
+         "I don't have personal hobbies, but I enjoy helping people with their interests and activities.",
+         "Since I'm an AI, I don't have personal hobbies or interests.",
+         "I'm an AI, so I don't have personal hobbies or interests."]
+        },
+        {"tag": "personel_info",
+         "patterns": ["where are you from",
+         "how old are you",
+         "do you have a family",
+         "what do you look like"],
+
+         "responses": ["I was created by MR NAVIN, so I don't have a physical location or origin. However, I'm here to assist you from the cloud.",
+         "As an AI, I don't have a specific age. I was created by MR NAVIN and have been learning and improving since then.",
+         "I'm an AI, so I don't have a family in the traditional sense. However, I'm here to assist and help people like you.",
+         "I'm an AI and don't have a physical appearance, but I'm here to help you with whatever you need."]
+        }
+
+        
+   ]
+}
